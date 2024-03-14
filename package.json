@@ -1,0 +1,35 @@
+{
+  "name": "lw-ai-bot",
+  "version": "0.1.0",
+  "bin": {
+    "lw-ai-bot": "bin/lw-ai-bot.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.109",
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.16",
+    "aws-cdk": "2.55.1",
+    "esbuild": "^0.16.8",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.1.6",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/prettier": "^2.7.1",
+    "aws-cdk-lib": "2.55.1",
+    "axios": "^1.2.1",
+    "constructs": "10.1.192",
+    "jsonwebtoken": "^8.5.1",
+    "langchain": "^0.1.27",
+    "source-map-support": "^0.5.21"
+  }
+}
