@@ -21,10 +21,6 @@ cdk deploy
 -   LINE_WORKS_SERVICE_ACCOUNT
 -   ANTHROPIC_API_KEY
 
-### Add webhook
-
-Add webhook in Github.
-
 ## AWS CDK
 
 This is a blank project for CDK development with TypeScript.
